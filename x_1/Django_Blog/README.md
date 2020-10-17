@@ -13,7 +13,7 @@
    - 點選文章中 Analysis 按鈕可查看相關圖表
 - Comments:
    - 可於文章中發表評論
-   - 若當前使用者為登入狀態，評論者將自動設定為當前使用
+   - 若當前使用者為登入狀態，評論者將自動設定為當前使用者
    - 若未登入，評論者將自動設定為匿名使用者
 - Asynchronous:
    - 將 AJAX 運用於評論功能 (發表後將自動新增評論，無需刷新頁面)
@@ -33,9 +33,9 @@
 
 
 # 使用:
-- 1. 使用 git clone https://github.com/austin89213/Django_Blog 或是直接下載此份專案之壓縮檔使用
+- 1. 執行 git clone https://github.com/austin89213/Django_Blog 或是直接下載此份專案之壓縮檔使用
 - 2. 建立虛擬環境並安裝 Python 3 以及 Django
 - 3. Termianl / Command Line 移動至 Django_Blog 主目錄
-- 4. 執行 python manage.py createsuperuser 建立 superuser 並用其登入
+- 4. 執行 python manage.py createsuperuser 建立 superuser 於往後登入時使用
 - 5. 執行 python manage.py runserver
 - 6. 於瀏覽器中開起所給予的連結 (http://127.0.0.1:8000/)
